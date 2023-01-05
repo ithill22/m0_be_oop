@@ -41,6 +41,7 @@ class Vampire
   vamp1 = Vampire.new("Nadja")
   p vamp1
   
+  #I am not sure why, but the vamp2 information is not appearing when I run it.
   vamp2 = Vampire.new("Nandor", "wolf")
   p vamp2.drink
 
