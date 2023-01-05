@@ -1,9 +1,25 @@
 # Write a class called Unicorn
 # it should have a dynamic name attribute
 # it should have a color attribute, that is silver by default
-# it should have a method called "say" that returns whatever string is passed in, with "*~*" at the beginning and end of the string
+# it should have a method called "say" that returns whatever string is passed in, with "*~*" at the beginning 
+# and end of the string
 
-
+class Unicorn
+    def initialize(name)
+      @name = name
+      @color = "silver"
+    end
+  
+    def say(statement)
+      "*~* #{statement} *~*"
+    end
+  end
+  
+  p uni1 = Unicorn.new("bob"), uni1.say("I'm the most handsome unicorn")
+  
+  
+  p uni2 = Unicorn.new("janet"), uni2.say("I'm the most beautiful unicorn")
+  
 
 #  Write a class called Vampire
 #  it should have a dynamic name attribute
